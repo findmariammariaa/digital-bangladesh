@@ -1,0 +1,99 @@
+body{
+    background-color: #F1F1F3;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 24px 160px;
+}
+nav button{
+    border-radius: 8%;
+    padding: 15px 30px;
+    width: 116px;
+    height: 52px;
+    color: #006A50;
+    font-weight: 900;
+}
+main{
+    margin: auto 160px 80px;
+}
+.start{
+    background-image: url('/UI/banner.png');
+    height: 560px;
+    border-radius: 2%;
+    margin-bottom: 80px;
+}
+.p{
+    display: flex;
+    gap: 24px;
+}
+.pillars .vision{
+    margin-bottom: 80px;
+}
+.p4{
+    size:302px 356px;
+    background-color: #FFFFFf;
+    height:200px;
+    width:230px ;
+    padding: 24px;
+    border-radius: 16px;
+}
+.v{
+    display: flex;
+    justify-content: space-around;
+    gap: 24px;
+}
+.v2{
+    padding: 32px;
+    background-color: #C6E4D6;
+    border-radius: 16px;
+}
+.v1{
+    padding: 32px;
+    background-color: #C6E4f6;
+    border-radius: 16px;
+}
+.v3{
+    padding: 32px;
+    background-color: #FFF7DF;
+    border-radius: 16px;
+}
+.b1{
+    background-color: #5490F5;
+    color:white;
+    border: none;
+    padding: 11px 20px;
+    border-radius: 10%;
+    margin-top: 19px;
+}
+.b2{
+    background-color: #09A15C;
+    color:white;
+    border: none;
+    padding: 11px 20px;
+    border-radius: 10%;
+}
+.b3{
+    background-color: #FFC239;
+    color:white;
+    border: none;
+    padding: 11px 20px;
+    border-radius: 10%;
+}
+.yunus{
+    background-image: url('/assets/quote-bg.png');
+    background-repeat: no-repeat;
+    padding: 24px;
+    background-color: white;
+    border-radius: 5%;
+    margin-top: 32px;
+}
+footer{
+    text-align: center;
+
+    background-color: white;
+    padding: 50px;
+}
+footer ul a{
+    margin: auto;
+}
