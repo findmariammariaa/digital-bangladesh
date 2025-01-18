@@ -80,7 +80,7 @@ main{
     border-radius: 10%;
 }
 .yunus{
-    background-image: url('assets/quote-bg.png');
+    background-image: url('./assets/quote-bg.png');
     background-repeat: no-repeat;
     padding: 24px;
     background-color: white;
@@ -119,29 +119,52 @@ img{
     display: flex;
     gap: 24px;
     justify-content: space-evenly;
+    height: 150px;
 }
 .t{
     background-color: white;
-    padding: 40px;
+    padding: 10px 50px;
     font-weight: bolder;
     width: 240px;
-    box-sizing: border-box;
     border-radius: 10%;
     margin: 32px;
 }
-#2{
+#cc{
     background-color: #C6E4D6;
 }
-.donate{
-    align-items: center;
-    display: block;
+.text{
+    width: 80%;
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
 }
+.donate{
+    padding: 32px;
+    align-content: center;
+    text-align: center;
+}
+.subscribe{
+    padding: 50px;
+    align-content: center;
+    text-align: center;
+    background-color: #C6E4D6;
+    margin: 32px;
+    border-radius: 10px;
+}
+.text2{
+    width: 50%;
+    text-align: center;
+    padding: 10px;
+    border: none;
+}
+
 footer{
     text-align: center;
-
     background-color: white;
-    padding: 50px;
+    width: 100%;
+    padding: 10px 0px;
+    margin: 0px;
 }
 footer ul a{
-    margin: auto;
+    margin: 10px;
 }
