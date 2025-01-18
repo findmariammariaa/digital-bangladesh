@@ -19,7 +19,7 @@ main{
     margin-right: 160px;
 }
 .start{
-    background-image: url('/UI/banner.png');
+    background-image: url('UI/banner.png');
     height: 560px;
     border-radius: 2%;
     margin-bottom: 80px;
