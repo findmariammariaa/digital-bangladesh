@@ -1,5 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 body{
     background-color: #F1F1F3;
+    font-family: 'Fira Sans', Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+body h1{
+    font-weight: 700;
+    color: #0E0E0E;
+    font-size: 40px;
+    
+}
+body p{
+    line-height: 24px;
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(14, 14, 14, 0.7);
+    opacity: 100%;
+}
+body h4{
+    font-weight: 600;
+    font-size: 20px;
+    color: rgba(14, 14, 14, 0.8);
+    margin: 1px;
+}
+nav h1,
+.news .n .n2 h1,
+footer h1{
+    font-weight: 700;
+    color: #0E0E0E;
+    font-size: 32px;
+}
+.news .n .n2 h1{
+    font-weight: 700;
+    color: rgba(14, 14, 14, 0.8);
+    font-size: 32px;
+}
+.pillars h1{
+    font-weight: 700;
+    color: #0E0E0E;
+    font-size: 40px;
+}
+body h3{
+    font-weight: 700;
+    color: rgba(14, 14, 14, 0.8);
+    font-size: 20px;
 }
 nav{
     display: flex;
@@ -13,6 +57,7 @@ nav button{
     height: 52px;
     color: #006A50;
     font-weight: 900;
+    border: #006A50 solid;
 }
 main{
     margin-left: 160px;
@@ -20,9 +65,9 @@ main{
 }
 .start{
     background-image: url('./UI/banner.png');
-    height: 560px;
+    height: 500px;
     border-radius: 2%;
-    margin-bottom: 80px;
+    margin: auto;
     background-repeat: none;
     background-size: cover;
 }
@@ -36,55 +81,49 @@ main{
 .p4{
     background-color: #FFFFFf;
     padding: 24px;
-    border-radius: 16px;
+    border-radius: 8%;
 }
 .v{
     display: flex;
     gap: 24px;
 }
-.v2{
+.v1, .v2 ,.v3{
     padding: 32px;
+    border-radius: 8%;
+    flex-direction: column;
+}
+.v2{
     background-color: #C6E4D6;
-    border-radius: 16px;
 }
 .v1{
-    padding: 32px;
     background-color: #C6E4f6;
-    border-radius: 16px;
 }
 .v3{
-    padding: 32px;
     background-color: #FFF7DF;
-    border-radius: 16px;
+}
+.b{
+    color:white;
+    border: none;
+    padding: 11px 20px;
+    border-radius: 8%;
+    margin-top: 19px;
 }
 .b1{
     background-color: #5490F5;
-    color:white;
-    border: none;
-    padding: 11px 20px;
-    border-radius: 10%;
-    margin-top: 19px;
+    
 }
 .b2{
     background-color: #09A15C;
-    color:white;
-    border: none;
-    padding: 11px 20px;
-    border-radius: 10%;
 }
 .b3{
     background-color: #FFC239;
-    color:white;
-    border: none;
-    padding: 11px 20px;
-    border-radius: 10%;
 }
 .yunus{
     background-image: url('./assets/quote-bg.png');
     background-repeat: no-repeat;
     padding: 24px;
     background-color: white;
-    border-radius: 5%;
+    border-radius: 18px;
     margin-top: 32px;
 }
 .btn{
@@ -100,9 +139,9 @@ main{
 .n{
     display: flex;
     gap: 32px;
-    padding: 48px;
+    padding: 40px;
     background-color: white;
-    border-radius: 4%;
+    border-radius: 18px;
     margin-top: 24px;
 }
 .n2{
@@ -111,20 +150,23 @@ main{
 .time{
     display: flex;
     gap: 9px;
+    margin: 0;
+}
+.n2 p{
+    margin: 5px;
+}
+.n2 h1{
+    margin-bottom: 2px;
 }
 img{
     border-radius: 8%;
 }
 .taka{
     display: flex;
-    gap: 24px;
     justify-content: space-evenly;
-    height: 150px;
 }
 .t{
     background-color: white;
-    padding: 10px 50px;
-    font-weight: bolder;
     width: 240px;
     border-radius: 10%;
     margin: 32px;
@@ -144,18 +186,23 @@ img{
     text-align: center;
 }
 .subscribe{
-    padding: 50px;
+    padding: 40px;
     align-content: center;
     text-align: center;
     background-color: #C6E4D6;
     margin: 32px;
     border-radius: 10px;
 }
+.subscribe p{
+    padding : 0px 200px;
+}
+
 .text2{
     width: 50%;
-    text-align: center;
+    text-align: start;
     padding: 10px;
     border: none;
+    margin: 0;
 }
 
 footer{
