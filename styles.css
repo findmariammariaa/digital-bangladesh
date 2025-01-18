@@ -80,7 +80,7 @@ main{
     border-radius: 10%;
 }
 .yunus{
-    background-image: url('/assets/quote-bg.png');
+    background-image: url('assets/quote-bg.png');
     background-repeat: no-repeat;
     padding: 24px;
     background-color: white;
