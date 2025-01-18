@@ -15,7 +15,8 @@ nav button{
     font-weight: 900;
 }
 main{
-    margin: auto 160px 80px;
+    margin-left: 160px;
+    margin-right: 160px;
 }
 .start{
     background-image: url('/UI/banner.png');
@@ -112,7 +113,7 @@ main{
     gap: 9px;
 }
 img{
-    border-radius: 10%;
+    border-radius: 8%;
 }
 .taka{
     display: flex;
